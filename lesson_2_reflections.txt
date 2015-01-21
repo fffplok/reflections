@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository, navigate to the folder that you want to contain the repository.
+	Then run git init. This creates the repository by adding the .git folder for the files git requires
+	for tracking the state of the repository.
+
+	You need to do this to be able to use git to manage version control for files in the folder.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The working directory is the collection of files in the folder on your computer that git interacts with.
+	Staging area is different from the working directory as it is a place for git to track what files are
+	marked to be available for commits (versioning). Staging is local and not part of the repository that
+	others may access. User may keep files in the working directory out of the staging area and ultimately
+	the repository. The repository is a collection of versioned files and when pushed to the hub may be
+	accessed by others.
