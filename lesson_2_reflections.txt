@@ -25,3 +25,7 @@ What are some situations when branches would be helpful in keeping your history 
 	master could continue without the new feature. A version of the master could be released without the new
 	feature. The new feature could be released when desired... if work on the feature coincides with the main
 	branch the developer has more time to get the job done, not having to wait until after a release.
+
+How do the diagrams help you visualize the branch structure?
+
+	diagrams show branches and commit node's parent. they also show unreachable commits.
