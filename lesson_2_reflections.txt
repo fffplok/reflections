@@ -14,3 +14,14 @@ How is the staging area different from the working directory and the repository?
 	others may access. User may keep files in the working directory out of the staging area and ultimately
 	the repository. The repository is a collection of versioned files and when pushed to the hub may be
 	accessed by others.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	A select number of files may be added to staging for commit and only these will be committed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	You may want to work on a feature that may not be added until later. The branch would help in that the
+	master could continue without the new feature. A version of the master could be released without the new
+	feature. The new feature could be released when desired... if work on the feature coincides with the main
+	branch the developer has more time to get the job done, not having to wait until after a release.
