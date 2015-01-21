@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	diff displayed a - for old version, + for new and the text for each line
+		one can then compare the text displayed and find what changed
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	when a programmer has access to the entire history of a file, it becomes easier
+		to roll back to a specific point in time if necessary (say when a bug is encountered)
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	pros
+		- choose when to logically do a commit, say when you think a fix is implemented
+
+	cons
+		- may spend too much time between commits and then it would be difficult to understand
+		the differences between the commits
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	git allows saving multiple files in a commit because developers often need to make a change
+	that requires editing multiple files. auto-save wouldn't be desirable
+
+	google docs on the other hand, is concerned with single document creation. auto-save works
+	here because there isn't the interdepency of files nor the notion of 'breaking something'
+
+How can you use the commands git log and git diff to view the history of files?
+
+	use git log to view all commits of the repo. There will be an id for each commit, and
+	hopefully, a descriptive message identifying what was done that commit
+
+	use git diff to view differences between commits. command looks like:
+	$ git diff id-of-first-commit id-of-second-commit
+	using diff shows lines of code added or deleted
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	version control gives you the ability to restore versions (commits) in the history of
+	the repository - if something breaks, you can go to a prior unbroken state and rework from
+	that point. Lewis Kaneshiro says that version control makes him a better programmer because
+	it allows him to explore larger concepts more easily than if he weren't using it -- he'd then
+	be programming with 'baby steps' afraid to break things.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	track my udacity courses. create portfolio for my own site
