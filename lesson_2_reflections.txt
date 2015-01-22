@@ -29,3 +29,21 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	diagrams show branches and commit node's parent. they also show unreachable commits.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	merging branches implies 'merging into'. before the merge, a developer would checkout a branch and see changes
+	specific to that branch only. to see changes of another branch, the other branch would need to be checked out.
+	once merged, the branch merged into becomes the parent of both (or all) previously unmerged branches. the branch
+	merged into can be checked out and all changes from previous branches will be visible. the branch merged now is
+	merely a label that can be deleted.
+
+	the diagram shows child <- parent relationship of commits
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	pro: Git marks regions of code where differences occur and gives the common ancestors code for reference.
+
+	con: Care must be taken so that Git marked files are correctly modified before the final merge. This can
+	be difficult when there are a lot of differences. Not editing the file correctly may introduce new errors such
+	as missing git inserted characters, not eliminating the common ancestor code in favor of merged code.
