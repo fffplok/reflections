@@ -50,4 +50,4 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-	track my udacity courses. create portfolio for my own site
+	track my udacity courses. create portfolio for my own site...

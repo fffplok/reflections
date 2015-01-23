@@ -47,3 +47,4 @@ What are the pros and cons of Git’s automatic merging vs. always doing merges 
 	con: Care must be taken so that Git marked files are correctly modified before the final merge. This can
 	be difficult when there are a lot of differences. Not editing the file correctly may introduce new errors such
 	as missing git inserted characters, not eliminating the common ancestor code in favor of merged code.
+	
