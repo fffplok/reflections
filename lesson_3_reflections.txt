@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  
+  You may work at different locations using different devices. A remote repository allows you to continue
+  working on an additional device providing a means for the original device to update its local files when needed.
+  
+  There may be several people working on a project. The repository facilitates a group effort by having tools to 
+  track changes and merge code when necessary.
+  
