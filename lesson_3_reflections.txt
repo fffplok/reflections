@@ -12,3 +12,19 @@ Why might you want to always pull changes manually rather than having Git automa
 	with code that may overlap your own. If git automatically tried to update local, you'd be forced to prematurely
 	deal with a merge.
   
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+	Clone: is a copy of a repository.
+	
+	Fork: a special type of clone that github makes for you on their own machines. It additionally identifies the 
+	original owner of the repository forked. The fork is a master branch that you edit on your github account, so 
+	your edits do not modify the master of the original repository. You can suggest the owner of the original do
+	a pull to update from your modifications.
+	
+	Branch: allows multiple threads of development in a repository. The main code is preserved in the master branch.
+	creating a new branch copies the master to a new branch that can be checked out and worked on independently from
+	the main code. To get the independently developed code back into the main master branch requires that it be merged.
+	
+	see: http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences
+	
