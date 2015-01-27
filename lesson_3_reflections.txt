@@ -32,3 +32,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
 	You can update the local copy of the remote without changing the local master by running git fetch. You can then
 	use git log and git diff to view changes made both on the local and remote repositories.
+	
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Say that you have no versioning tool. It would be easier to just edit files without the learning curve of
+	git and github. Keeping track of versions would be harder, some system for doing so would need to be worked
+	out between members of the team. Merging edited files again would require an agreed protocol. Branching
+	would be much more difficult. The team might work out a way of keeping a master collection of zipped projects at different build states. A merge tool could be used to facilitate choosing edits. Once edits chosen, project
+	could be zipped. By the time these systems get put in place, it might have been worth the time to learn git.
+	
