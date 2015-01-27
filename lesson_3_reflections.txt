@@ -28,3 +28,7 @@ use one instead of another?
 	
 	see: http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences
 	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	You can update the local copy of the remote without changing the local master by running git fetch. You can then
+	use git log and git diff to view changes made both on the local and remote repositories.
