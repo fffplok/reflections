@@ -41,3 +41,24 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	would be much more difficult. The team might work out a way of keeping a master collection of zipped projects at different build states. A merge tool could be used to facilitate choosing edits. Once edits chosen, project
 	could be zipped. By the time these systems get put in place, it might have been worth the time to learn git.
 	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Make changes in a separate branch if you want to isolate development from master.
+	Say, work on a custom feature that may be brought into master at a future date.
+	Also, when working collaboratively keeping changes in a separate branch allows each
+	collaborator to see changes and communicate information before changes become 
+	merged into master.
+	
+	Not using a branch would make the process simpler, just pushing and pulling. Using
+	pull requests, though, help a team make decisions along the way so that the quality
+	of what gets merged into master is high. 
+	
+	A reminder from the comments on this reflect:
+	
+		You just saw that the workflow when making changes in a separate branch is
+		more complicated than working directly in master, especially when you need 
+		to stay up-to-date with changes others are making. Rather than simply pulling
+		and pushing, you need to pull changes into your local master branch, merge 
+		the local master into your branch (different-oil, in our case), then push 
+		your branch to the remote before finally merging your branch into master, 
+		either locally or on GitHub.
